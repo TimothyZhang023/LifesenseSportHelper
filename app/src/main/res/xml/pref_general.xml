@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/show_system_app">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="show_system_app"
+            android:title="@string/show_system_app" />
+    </PreferenceCategory>
+
+    <ListPreference
+        android:defaultValue="WECHAT"
+        android:entries="@array/pref_fake_type_list_titles"
+        android:entryValues="@array/pref_fake_type_list_values"
+        android:key="fake_type"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_fake_type" />
+
+</PreferenceScreen>

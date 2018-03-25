@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">乐心运动助手</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="action_search">搜索</string>
+    <string name="other">其他</string>
+    <string name="about">关于</string>
+    <string name="refresh">刷新</string>
+    <string name="ok">确定</string>
+    <string name="pls_restart_ls_sport">请重启乐心运动APP</string>
+    <string name="xposed_not_working">Xposed插件没有工作，请检查</string>
+    <string name="guide_text">点击应用名以启用通知功能(需要重启乐心APP)</string>
+    <string name="donate">赞助</string>
+
+
+    <string name="pref_header_general">通用</string>
+    <string name="pref_title_fake_type">模拟类型</string>
+    <string-array name="pref_fake_type_list_titles">
+        <item>UNKNOWN</item>
+        <item>ALL</item>
+        <item>OTHER</item>
+        <item>SMS</item>
+        <item>WECHAT - 兼容性最好-{推荐}</item>
+        <item>QQ</item>
+        <item>FACEBOOK</item>
+        <item>TWITTER</item>
+        <item>LINE</item>
+        <item>GMAIL</item>
+        <item>WHATSAPP</item>
+        <item>SE_WELLNESS</item>
+        <item>KAKAO</item>
+    </string-array>
+
+    <string-array name="pref_fake_type_list_values">
+        <item>UNKNOWN</item>
+        <item>ALL</item>
+        <item>OTHER</item>
+        <item>SMS</item>
+        <item>WECHAT</item>
+        <item>QQ</item>
+        <item>FACEBOOK</item>
+        <item>TWITTER</item>
+        <item>LINE</item>
+        <item>GMAIL</item>
+        <item>WHATSAPP</item>
+        <item>SE_WELLNESS</item>
+        <item>KAKAO</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+
+    <string name="title_activity_about">关于</string>
+    <string name="large_text">
+        "这是一个可以让乐心手环推送任意APP的Xposed Hook \n\n"
+        "支持乐心运动3.2版本 \n\n"
+        "Github : https://github.com/TimothyZhang023 \n\n"
+    </string>
+    <string name="show_system_app">显示系统应用</string>
+</resources>
