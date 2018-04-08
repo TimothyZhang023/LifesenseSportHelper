@@ -119,6 +119,14 @@ public class LifeSenseBLEPushHook implements IXposedHookLoadPackage {
                 }
             });
 
+            findAndHookMethod("com.lifesense.component.usermanager.UserManager", lpparam.classLoader,
+                    "writeNetworkLog", String.class, new XC_MethodReplacement() {
+                        @Override
+                        protected Object replaceHookedMethod(MethodHookParam param) throws Throwable {
+                            return null;
+                        }
+                    });
+
 
             findAndHookMethod("com.lifesense.ble.message.a.c", lpparam.classLoader, "a", Context.class, String.class, new XC_MethodHook() {
                 Class<?> messageTypeClass = findClass("com.lifesense.ble.bean.constant.MessageType", lpparam.classLoader);
